@@ -3,6 +3,7 @@ Sub Abstract()
 ' Abstract Macro
 '
 '
+    Selection.font.Name = "Times New Roman"
     Selection.font.Bold = wdToggle
     Selection.font.Size = 9
     Selection.MoveLeft Unit:=wdCharacter, Count:=1
