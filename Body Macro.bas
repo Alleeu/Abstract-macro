@@ -1,6 +1,6 @@
 Sub Body()
 '
-' Body Macro for IEEE 2 column
+' Body Macro for IEEE 2 col
 '
 '
     Selection.WholeStory
