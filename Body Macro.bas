@@ -1,8 +1,7 @@
 Sub Body()
-'
-' Body Macro for IEEE 2 column format
-'
-'
+' Author: Alan Lee
+' Purpose: Format the body text for the IEEE 2 column format
+
     Selection.WholeStory
     With Selection.PageSetup
         .LineNumbering.Active = False
@@ -98,4 +97,5 @@ Sub Body()
     End With
         Selection.WholeStory
         Selection.font.Name = "Times New Roman"
+        Selection.Font.Size = 11
 End Sub
